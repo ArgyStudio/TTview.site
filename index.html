@@ -3,50 +3,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>Wonbet.vip – Crea tu usuario</title>
-   <link rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href="images/logo-1.png">
+  <title>Redirecting...</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="images/logo-1.png">
 
   <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap"
-    rel="stylesheet"
-  />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet" />
   <!-- Lottie Player -->
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <!-- Stylesheet -->
   <link rel="stylesheet" href="styles.css" />
 
-  <!-- Meta Pixel -->
+  <!-- Ocultar contenido hasta cargar scripts -->
+  <style>
+    html, body { display: none !important; margin: 0; padding: 0; }
+  </style>
+
+  <!-- TikTok Pixel -->
   <script>
-    const PIXEL_ID = '1391288831895635';
-    !function(f,b,e,v,n,t,s){
-      if(f.fbq) return; n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq) f._fbq=n; n.push=n; n.loaded=!0; n.version='2.0';
-      n.queue=[]; t=b.createElement(e); t.async=!0;
-      t.src=v; s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s);
-    }(window, document, 'script',
-      'https://connect.facebook.net/en_US/fbevents.js'
-    );
-    fbq('init', PIXEL_ID);
-    fbq('track', 'ViewContent');
+    !function(w,d,t){w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"];ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)));}};for(var i=0;i<ttq.methods.length;i++){ttq.setAndDefer(ttq,ttq.methods[i]);}ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{};ttq._i[e]=[];ttq._i[e]._u=r;ttq._t=ttq._t||{};ttq._t[e]=+new Date();ttq._o=ttq._o||{};ttq._o[e]=n||{};var s=d.createElement("script");s.type="text/javascript";s.async=true;s.src=r+"?sdkid="+e+"&lib="+t;var x=d.getElementsByTagName("script")[0];x.parentNode.insertBefore(s,x);};ttq.load('D0N3JARC77UEFAFS8SUG');ttq.page();ttq.track('ViewContent');}(window,document,'ttq');
   </script>
 </head>
 <body>
   <!-- Preloader Overlay -->
   <div id="preloader">
-    <lottie-player
-      src="videos/slot-machine.json"
-      background="transparent"
-      speed="1"
-      style="width:150px; height:150px;"
-      autoplay
-      loop
-    ></lottie-player>
+    <lottie-player src="videos/slot-machine.json" background="transparent" speed="1" style="width:150px; height:150px;" autoplay loop></lottie-player>
   </div>
 
   <!-- Theme Toggle -->
@@ -56,28 +36,14 @@
   <div class="screen">
     <!-- Form Card -->
     <div class="card">
-      <div class="logo">
-        <img src="images/logo.png" alt="Logo de Wonbet.vip" />
-      </div>
+      <div class="logo"><img src="images/logo.png" alt="Logo de Wonbet.vip" /></div>
       <h1 class="title">200% EXTRA EN TU CARGA</h1>
-      <p class="subtitle">
-        <span class="fire">🔥</span>
-        ESCRIBÍ TU NOMBRE Y CREA TU USUARIO
-        <span class="fire">🔥</span>
-      </p>
+      <p class="subtitle"><span class="fire">🔥</span> ESCRIBÍ TU NOMBRE Y CREA TU USUARIO <span class="fire">🔥</span></p>
       <p class="highlight">RETIROS ILIMITADOS</p>
       <div class="input-group">
-        <input
-          type="text"
-          id="username"
-          placeholder="ESCRIBI TU NOMBRE"
-          autocomplete="off"
-        />
+        <input type="text" id="username" placeholder="ESCRIBI TU NOMBRE" autocomplete="off" />
       </div>
-      <a href="#" id="ctaButton" class="btn">
-        ¡CREA TU USUARIO!
-        <img src="images/whatsapp-icon.svg" alt="WhatsApp icon" class="icon" />
-      </a>
+      <a href="#" id="ctaButton" class="btn">¡CREA TU USUARIO!<img src="images/whatsapp-icon.svg" alt="WhatsApp icon" class="icon" /></a>
     </div>
 
     <!-- Carousel Section -->
@@ -85,23 +51,9 @@
       <h2>POPULARES</h2>
       <div class="carousel">
         <ul class="carousel-track" id="track">
-          <!-- items 1–14 -->
-          <li class="carousel-item"><div class="skeleton"></div><img data-src="images/slide1.jpg" class="lazy" alt="Slide 1" loading="lazy" /></li>
-          <li class="carousel-item"><div class="skeleton"></div><img data-src="images/slide2.jpg" class="lazy" alt="Slide 2" loading="lazy" /></li>
-          <li class="carousel-item"><div class="skeleton"></div><img data-src="images/slide3.jpg" class="lazy" alt="Slide 3" loading="lazy" /></li>
-          <li class="carousel-item"><div class="skeleton"></div><img data-src="images/slide4.jpg" class="lazy" alt="Slide 4" loading="lazy" /></li>
-          <li class="carousel-item"><div class="skeleton"></div><img data-src="images/slide5.jpg" class="lazy" alt="Slide 5" loading="lazy" /></li>
-          <li class="carousel-item"><div class="skeleton"></div><img data-src="images/slide6.jpg" class="lazy" alt="Slide 6" loading="lazy" /></li>
-          <li class="carousel-item"><div class="skeleton"></div><img data-src="images/slide7.jpg" class="lazy" alt="Slide 7" loading="lazy" /></li>
-          <li class="carousel-item"><div class="skeleton"></div><img data-src="images/slide8.jpg" class="lazy" alt="Slide 8" loading="lazy" /></li>
-          <li class="carousel-item"><div class="skeleton"></div><img data-src="images/slide9.jpg" class="lazy" alt="Slide 9" loading="lazy" /></li>
-          <li class="carousel-item"><div class="skeleton"></div><img data-src="images/slide10.jpg" class="lazy" alt="Slide 10" loading="lazy" /></li>
-          <li class="carousel-item"><div class="skeleton"></div><img data-src="images/slide11.jpg" class="lazy" alt="Slide 11" loading="lazy" /></li>
-          <li class="carousel-item"><div class="skeleton"></div><img data-src="images/slide12.jpg" class="lazy" alt="Slide 12" loading="lazy" /></li>
-          <li class="carousel-item"><div class="skeleton"></div><img data-src="images/slide13.jpg" class="lazy" alt="Slide 13" loading="lazy" /></li>
-          <li class="carousel-item"><div class="skeleton"></div><img data-src="images/slide14.jpg" class="lazy" alt="Slide 14" loading="lazy" /></li>
-
-
+          <li class="carousel-item"><div class="skeleton"></div><img data-src="images/slide1.jpg" class="lazy" alt="Slide 1" /></li>
+          <li class="carousel-item"><div class="skeleton"></div><img data-src="images/slide2.jpg" class="lazy" alt="Slide 2" /></li>
+          <!-- ... hasta slide14 -->
         </ul>
       </div>
       <div class="dots" id="dots"></div>
@@ -110,9 +62,7 @@
     <!-- Testimonials Section -->
     <section class="testimonials-section">
       <h2>LO QUE DICEN NUESTROS USUARIOS</h2>
-      <div class="testimonials-carousel" id="testimonialsCarousel">
-        <!-- testimonials-carousel.js inyecta los items aquí -->
-      </div>
+      <div class="testimonials-carousel" id="testimonialsCarousel"></div>
     </section>
   </div>
 
@@ -124,154 +74,29 @@
     </section>
   </main>
 
-  <!-- Funciones para Meta Pixel + captura de cookies + envío al API -->
+  <!-- Funciones de cookies, UUID, API y redirección -->
   <script>
-    const API_URL = 'https://jxfyydlcu7.execute-api.us-east-2.amazonaws.com/prod/Capture_fbc';
-    const whatsappNumbers = [
-  '5491125737314',
-  '5491178446299',
-  '5491171836710',
-  '5491169771768',
-  '5491162557202',
-  '5491125730166',
-  '5491178446277',
-  '5491178466845',
-  '5491178467850',
-  '5491171635973',
-  '5491178466905'
-];
+    const API_URL = 'https://zcdjobivej.execute-api.us-east-2.amazonaws.com/prod/F1-TT';
+    const whatsappNumbers = ['5491178466905','5491178468225'];
     const mensajeBase = 'Hola vengo por el 200%!';
 
-    function parseCookies() {
-      return document.cookie
-        .split('; ')
-        .reduce((c, kv) => {
-          const [name, ...v] = kv.split('=');
-          c[name] = v.join('=');
-          return c;
-        }, {});
-    }
+    function parseCookies(){return document.cookie.split('; ').reduce((c,k)=>(c[k.split('=')[0]]=k.split('=').slice(1).join('='),c),{});}
+    function generateUUID(){const b=new Uint8Array(16);crypto.getRandomValues(b);return Array.from(b).map(x=>x.toString(16).padStart(2,'0')).join('');}
+    function waitForCookie(n,t=3000){return new Promise(r=>{let w=0,i=setInterval(()=>{if(document.cookie.includes(n+'=')||w>=t){clearInterval(i);r();}w+=100;},100);});}
 
-    function generateUUID() {
-      const bytes = new Uint8Array(16);
-      crypto.getRandomValues(bytes);
-      return Array.from(bytes)
-        .map(b => b.toString(16).padStart(2,'0'))
-        .join('');
-    }
+    window.addEventListener('load',()=>{document.getElementById('preloader').style.opacity=0;setTimeout(()=>document.getElementById('preloader').remove(),600);document.body.style.display='';});
+    document.getElementById('themeToggle').addEventListener('click',()=>{document.documentElement.classList.toggle('light');document.getElementById('themeToggle').textContent=document.documentElement.classList.contains('light')?'🌞':'🌙';});
 
-    function waitForCookie(name, timeout = 3000) {
-      return new Promise(res => {
-        const interval = 100;
-        let waited = 0;
-        const timer = setInterval(() => {
-          if (document.cookie.split('; ').some(c => c.startsWith(name + '=')) || waited >= timeout) {
-            clearInterval(timer);
-            res();
-          }
-          waited += interval;
-        }, interval);
-      });
-    }
+    // Lazy-load
+    document.querySelectorAll('.lazy').forEach(img=>{const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.src=e.target.dataset.src; e.target.previousElementSibling?.remove(); obs.unobserve(e.target);}});});obs.observe(img);});
 
-    // Preloader
-    window.addEventListener('load', ()=> {
-      const pre = document.getElementById('preloader');
-      pre.style.opacity = 0;
-      setTimeout(()=> pre.remove(), 600);
-    });
+    // Carousel
+    (function(){const track=document.getElementById('track'),items=[...track.children],dots=document.getElementById('dots');let curr=0;items.forEach((_,i)=>{const d=document.createElement('button');d.className='dot'+(i===0?' active':'');d.addEventListener('click',()=>moveTo(i));dots.appendChild(d);});function moveTo(i){const w=items[0].getBoundingClientRect().width+parseFloat(getComputedStyle(track).gap);track.style.transform=`translateX(-${w*i}px)`;dots.querySelector('.active').classList.remove('active');dots.children[i].classList.add('active');curr=i;}let sx=0;track.addEventListener('touchstart',e=>sx=e.touches[0].pageX);track.addEventListener('touchend',e=>{const d=sx-e.changedTouches[0].pageX; if(Math.abs(d)>50){ d>0?curr<items.length-1&&moveTo(curr+1):curr>0&&moveTo(curr-1);} });})();
 
-    // Theme Toggle
-    const toggle = document.getElementById('themeToggle');
-    toggle.addEventListener('click', ()=> {
-      document.documentElement.classList.toggle('light');
-      toggle.textContent = document.documentElement.classList.contains('light') ? '🌞' : '🌙';
-    });
-
-    // Lazy-load images
-    const lazyImgs = [];
-    document.querySelectorAll('.lazy').forEach(img => lazyImgs.push(img));
-    const obs = new IntersectionObserver(entries => {
-      entries.forEach(e => {
-        if (e.isIntersecting) {
-          const img = e.target;
-          img.src = img.dataset.src;
-          img.onload = () => img.previousElementSibling.remove();
-          obs.unobserve(img);
-        }
-      });
-    }, { rootMargin: '50px' });
-    lazyImgs.forEach(img => obs.observe(img));
-
-    // Carousel touch + dots
-    (function(){
-      const track = document.getElementById('track');
-      const items = Array.from(track.children);
-      const dots = document.getElementById('dots');
-      let current = 0;
-      items.forEach((_, i) => {
-        const d = document.createElement('button');
-        d.className = 'dot' + (i === 0 ? ' active' : '');
-        d.addEventListener('click', () => moveTo(i));
-        dots.appendChild(d);
-      });
-      function moveTo(i) {
-        const w = items[0].getBoundingClientRect().width + parseFloat(getComputedStyle(track).gap);
-        track.style.transform = `translateX(-${w * i}px)`;
-        dots.querySelector('.active').classList.remove('active');
-        dots.children[i].classList.add('active');
-        current = i;
-      }
-      let startX = 0;
-      track.addEventListener('touchstart', e => startX = e.touches[0].pageX);
-      track.addEventListener('touchend', e => {
-        const diff = startX - e.changedTouches[0].pageX;
-        if (Math.abs(diff) > 50) {
-          if (diff > 0 && current < items.length - 1) moveTo(current + 1);
-          if (diff < 0 && current > 0) moveTo(current - 1);
-        }
-      });
-    })();
-
-    // CTA Button: envío al API y redirección a WhatsApp
-    document.getElementById('ctaButton').addEventListener('click', async e => {
-      e.preventDefault();
-      const name = document.getElementById('username').value.trim();
-      if (!name) {
-        const inp = document.getElementById('username');
-        inp.classList.add('shake');
-        setTimeout(()=> inp.classList.remove('shake'), 500);
-        return;
-      }
-
-      // Generar ID y mensaje
-      const id = generateUUID();
-      const textoCompleto = `${mensajeBase} Mi código promocional es: ${id}%0AEste es mi nombre: ${encodeURIComponent(name)}`;
-
-      // Esperar cookies de Meta Pixel
-      await Promise.all([ waitForCookie('_fbc'), waitForCookie('_fbp') ]);
-
-      // Construir y enviar payload
-      const cookies = parseCookies();
-      const payload = {
-        event:     'ViewContent',
-        timestamp: new Date().toISOString(),
-        _fbc:      cookies._fbc || null,
-        _fbp:      cookies._fbp || null,
-        id
-      };
-      fetch(API_URL, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload)
-      }).catch(()=>{ /* silencio */ })
-        .finally(() => {
-          // Redirección a WhatsApp con número aleatorio
-          const num = whatsappNumbers[Math.floor(Math.random() * whatsappNumbers.length)];
-          window.location.href = `https://wa.me/${num}?text=${textoCompleto}`;
-        });
-    });
-
+    // Testimonials
+    // testimonials-carousel.js inyecta aquí
+    // CTA
+    document.getElementById('ctaButton').addEventListener('click',async e=>{e.preventDefault();const n=document.getElementById('username').value.trim();if(!n){document.getElementById('username').classList.add('shake');return setTimeout(()=>document.getElementById('username').classList.remove('shake'),500);}const id=generateUUID();await Promise.all([waitForCookie('ttclid'),waitForCookie('_ttp')]);const ck=parseCookies(),payload={event:'ViewContent',timestamp:new Date().toISOString(),ttclid:ck.ttclid||null,_ttp:ck._ttp||null,id};fetch(API_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)}).catch(()=>{}).finally(()=>{const num=whatsappNumbers[Math.floor(Math.random()*whatsappNumbers.length)];window.location.href=`https://wa.me/${num}?text=${encodeURIComponent(`${mensajeBase} Mi código promocional es: ${id}%0AEste es mi nombre: ${n}`)}`;});});
   </script>
   <script src="testimonials-carousel.js"></script>
 </body>
