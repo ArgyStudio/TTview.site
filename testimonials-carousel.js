@@ -3,19 +3,20 @@
 // Testimonios dinámicos y auto-scroll vertical
 (function(){
   const data = [
-    {name: "María P.", city: "Buenos Aires", time: "16:23", text: "¡Excelente experiencia, retiros inmediatos!"},
-    {name: "Lucía G.", city: "Córdoba", time: "09:12", text: "Muy fácil de usar y con gran atención."},
-    {name: "Martín R.", city: "Rosario", time: "20:45", text: "La mejor plataforma de casino móvil."},
-    {name: "Sofía L.", city: "Mendoza", time: "14:05", text: "Los bonos son increíbles, la recomiendo."},
-    {name: "Carlos F.", city: "La Plata", time: "18:30", text: "Interfaz rápida y atractiva."},
-    {name: "Ana T.", city: "Mar del Plata", time: "12:50", text: "¡Gané y retiré mis fondos al instante!"},
-    {name: "Diego V.", city: "Salta", time: "22:10", text: "Soporte 24/7 y promociones diarias."},
-    {name: "Valentina S.", city: "San Juan", time: "11:15", text: "Me encanta la fluidez de la app."},
-    {name: "Javier N.", city: "Paraná", time: "17:05", text: "Lo mejor para jugar desde el celular."},
-    {name: "Julieta C.", city: "Santa Fe", time: "13:40", text: "Pagos seguros y rápidos."}
-    // ... podés agregar más objetos para variabilidad
-  ];
-
+  // ... tus datos originales ...
+  {name: "Laura M.", city: "Tucumán", time: "15:20", text: "¡Vine por el anuncio de TikTok y qué suerte! Gané en mi primera jugada 🎉"},
+  {name: "Roberto P.", city: "Corrientes", time: "19:55", text: "Gracias al TikTok que vi, probé y retiré ganancias al toque. 😎"},
+  {name: "Camila V.", city: "Ushuaia", time: "10:10", text: "Nunca creí en suerte hasta que vi el TikTok y gané $15k 🍀"},
+  {name: "Fernando C.", city: "San Luis", time: "23:15", text: "El algoritmo de TikTok me mostró esto y fue mi mejor coincidencia 💰"},
+  {name: "Daniela R.", city: "Río Negro", time: "08:30", text: "¡Por el anuncio de TikTok entré y tuve la suerte más grande! 🤑"},
+  {name: "Gonzalo T.", city: "Chubut", time: "21:40", text: "Vi el TikTok a las 3 AM y ahora tengo +$50k. ¡Increíble! �"},
+  {name: "Micaela J.", city: "Catamarca", time: "17:25", text: "Al principio dudé del TikTok, pero confirmo: es 100% real ✔️"},
+  {name: "Lucas G.", city: "Formosa", time: "14:18", text: "¡Suerte instantánea! Vine por TikTok y en 10 min ya ganaba 💸"},
+  {name: "Romina P.", city: "Jujuy", time: "16:50", text: "El mejor consejo que me dio TikTok: registrarme aquí 🏆"},
+  {name: "Oscar L.", city: "Santa Cruz", time: "12:05", text: "Gané $20k tras ver el anuncio. ¡TikTok no miente esta vez! 🙌"},
+  {name: "Natalia F.", city: "Neuquén", time: "22:30", text: "De ver el TikTok a retirar ganancias en 1 hora. ¡Épico! ⚡"},
+  {name: "Pablo S.", city: "Santiago del Estero", time: "13:22", text: "Si dudas del TikTok como yo dudé: ¡ARRIESGATE! Vale totalmente 💯"}
+];
   const container = document.getElementById('testimonialsCarousel');
   let idx = 0, timer;
 
