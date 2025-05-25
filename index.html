@@ -49,15 +49,11 @@
       ttq.page();
       ttq.track('ViewContent');
     }(window, document, 'ttq');
-  </script>
-  <!-- TikTok Pixel Code End -->
-
-
+   </script>
 </head>
 <body>
-  <script>
-</head>
-<body>
+</body>
+</html>
   <!-- Preloader Overlay -->
   <div id="preloader">
     <lottie-player
@@ -165,13 +161,7 @@
         }, {});
     }
 
-    function generateUUID() {
-      const bytes = new Uint8Array(16);
-      crypto.getRandomValues(bytes);
-      return Array.from(bytes)
-        .map(b => b.toString(16).padStart(2,'0'))
-        .join('');
-    }
+    
 
       function waitForCookie(name, timeout = 3000) {
       return new Promise(resolve => {
@@ -258,7 +248,7 @@
       }
 
       // Generar ID y mensaje
-      const id = generateUUID();
+      
       const textoCompleto = `${mensajeBase} Mi código promocional es: ${id}%0AEste es mi nombre: ${encodeURIComponent(name)}`;
 
       // Esperar cookies de Meta Pixel
